@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5em;
+    margin-right: 1em;
+    box-shadow: 0px 0px 4px 4px rgba(240, 95, 74, 0.25);
+    border-radius: 0 0 10px 0;
+}
+
+.header-titulo {
+    display: flex;
+    align-items: center;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.header-titulo img {
+    margin-right: 1.5em;
+    width: 4.5rem;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu li {
+    padding: 1em;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.header-menu li:hover {
+    color: #fff;
+    box-shadow: 0 1px 4px rgba(66, 37, 103, 1);
+    border-radius: 5px;
+    background: linear-gradient(121.86deg, #f05f4a 23.04%, #7b54a7 97.21%);
+}
