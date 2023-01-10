@@ -15,10 +15,7 @@
     font-weight: 700;
 }
 
-.header-titulo img {
-    margin-right: 1.5em;
-    width: 4.5rem;
-}
+
 
 .header-menu {
     display: flex;

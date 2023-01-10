@@ -1,6 +1,8 @@
-import AnimatedTypingComponent from '../../componentes/Digitando'
+import "./Sobre.css"
 import './Home.css'
+import AnimatedTypingComponent from '../../componentes/Digitando'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 
 
 import Header from '../../componentes/Header/Header';
@@ -35,7 +37,13 @@ const Home = () => {
                     <img src='/img/engrenagemRoxa.png' alt='Computador' className='home-imagem--roxa'/>
                 </div>
             </section>
-            <Techs/>
+            <section className='sobre'>
+                <div>
+                    <img src="/img/logo512.png" alt="Logo React" />
+                    <h3>Esse site está sendo desenvolvido com React</h3>
+                </div>
+                <Techs/>
+            </section>
 
         </div>        
     )

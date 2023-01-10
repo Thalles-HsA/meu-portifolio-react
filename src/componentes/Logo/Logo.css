@@ -1,0 +1,25 @@
+.header-hexa {
+    position: absolute;
+}
+
+.header-th {
+    position: relative;
+}
+
+.header-hexa {
+    animation: giro-horario 15s linear infinite;
+}
+
+@keyframes giro-horario {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header-hexa, .header-th {
+    margin-right: 0.5em;
+    width: 4.5rem;
+}

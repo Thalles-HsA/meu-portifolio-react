@@ -13,12 +13,13 @@ function Techs () {
                 <AiFillHtml5 style={{color: "#ff5722"}}/>
                 <DiCss3 style={{color: "#2196f3"}}/>
                 <SiJavascript style={{color: "#ffdf00"}}/>
+                <SiReact style={{color: "#66dcfb"}}/>
             </div>
             <p className='techs-tecnologias'>Tecnologias</p>
             <p className='techs-aprendendo'>Atualmente Aprendendo</p>
             <div className='techs-icons'>
                 <SiNodedotjs style={{color: "#83cd29"}}/>
-                <SiReact style={{color: "#66dcfb"}}/>
+                
             </div>
         </section>
     );
