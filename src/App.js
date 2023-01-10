@@ -1,14 +1,12 @@
 import './Reset.css'
 import './App.css'
-import Header from './componentes/Header';
-import Home from './componentes/Home';
+import Routes from './Routes';
 
 function App() {
 
   return (
     <div>
-      <Header />
-      <Home />
+      <Routes />
     </div>
   );
 

@@ -1,27 +1,46 @@
-import Typing from 'react-typing-animation';
+import Typist from 'react-typist-component';
 import './Digitando.css'
+import Emoji from "react-emoji-render";
 
-const AnimatedTypingComponent = () => (
+
+function AnimatedTypingComponent () {
+  return (
     
-  <Typing  className="digitando" >
-    Thalles Henrique
+    <div className="digitando">
+      
+      <Typist typingDelay={50} >
+        <p>
+          Thalles Henrique,
+        </p>
+      </Typist>
 
-    <Typing.Speed ms={100} />
-    <br />
+      <Typist startDelay={2500} typingDelay={120} backspaceDelay={30}>
 
-    Front-end devel
-    <Typing.Speed ms={50} />
-    <Typing.Delay ms={2000} />
-    <Typing.Backspace count={15} />
+        <p>
+          Front-end Devel<Emoji text="🤔" onlyEmojiClassName="make-emojis-large" />
+        </p>
+        <Typist.Delay ms={1500} />
+        <Typist.Backspace count={18} />
 
-    Back-en
-    <Typing.Delay ms={2000} />
-    <Typing.Backspace count={7} />
+        <p>
+          Back-end De<Emoji text="🤔" onlyEmojiClassName="make-emojis-large" />
+        </p>
+        <Typist.Delay ms={1500} />
+        <Typist.Backspace count={15} />
+        
+          Full Stack Developer<Emoji text="😅" onlyEmojiClassName="make-emojis-large" />
+          <Typist.Delay ms={3000} />
+          <Typist.Backspace count={1} />
+        <Emoji text="😄" onlyEmojiClassName="make-emojis-large" />
 
-    Full Stack Developer
 
+      </Typist>
+    </div>
     
-  </Typing>
-);
+  )
+
+  
+  
+  };
 
 export default AnimatedTypingComponent
