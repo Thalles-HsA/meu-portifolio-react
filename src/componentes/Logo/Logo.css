@@ -1,10 +1,11 @@
 .header-hexa {
-    position: absolute;
+    position: relative;
 }
 
 .header-th {
-    position: relative;
+    position: absolute;
 }
+
 
 .header-hexa {
     animation: giro-horario 15s linear infinite;

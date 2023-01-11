@@ -1,18 +1,16 @@
 import "./Sobre.css"
 import './Home.css'
-import AnimatedTypingComponent from '../../componentes/Digitando'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-
-
-
-import Header from '../../componentes/Header/Header';
 import { NavLink } from 'react-router-dom'
+import AnimatedTypingComponent from '../../componentes/Digitando'
+import Header from '../../componentes/Header/Header';
 import Techs from '../../componentes/Techs/Techs';
+import Logo from "../../componentes/Logo/Logo";
 
 const Home = () => {
 
     return (
-        <div >
+        <>
             <Header/>
             <section className='home'>
                 <div >
@@ -37,15 +35,26 @@ const Home = () => {
                     <img src='/img/engrenagemRoxa.png' alt='Computador' className='home-imagem--roxa'/>
                 </div>
             </section>
+            
             <section className='sobre'>
-                <div>
-                    <img src="/img/logo512.png" alt="Logo React" />
-                    <h3>Esse site está sendo desenvolvido com React</h3>
+                <div className="sobre-container">
+                    <Logo />
+                    <h3>Thalles Henrique</h3>
+                    <p className="sobre-paragrafo">Atualmente cursando o 2º período da Faculdade de Ciências da Computação. </p>
+
+                    <p className="sobre-paragrafo">Tenho experiência em HTML, CSS, CSS Flexbox, CSS Grid, JavaScript e React. Também em desenvolvimento web responsivo, páginas interativas e acessíveis. </p>
+
+                    <p className="sobre-paragrafo">Estou aprimorando conhecimento em TypeScript, NodeJS e Banco de Dados. </p>
+
+                    <p className="sobre-paragrafo">Estou colocando em prática todas minhas skills no Projeto Inventory, veja mais sobre ele abaixo 
+                    </p>
+                    <NavLink to="/Inventory" className="botao-inventory">Projeto Inventory</NavLink>
                 </div>
                 <Techs/>
+            
             </section>
 
-        </div>        
+        </>        
     )
         
 }
