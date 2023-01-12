@@ -1,10 +1,19 @@
+// import CSS
+
 import "./Sobre.css"
-import './Home.css'
+import "./Home.css"
+import "./Portfolio.css"
+
+// import Componentes Externos
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from 'react-router-dom'
 import AnimatedTypingComponent from '../../componentes/Digitando'
-import Header from '../../componentes/Header/Header';
+
+
+//import Componentes Internos
 import Techs from '../../componentes/Techs/Techs';
+import Carrossel from "../../componentes/Carrossel/Carrossel";
+import Header from '../../componentes/Header/Header';
 import Logo from "../../componentes/Logo/Logo";
 
 const Home = () => {
@@ -35,6 +44,8 @@ const Home = () => {
                     <img src='/img/engrenagemRoxa.png' alt='Computador' className='home-imagem--roxa'/>
                 </div>
             </section>
+
+            <hr className="hr"/>
             
             <section className='sobre'>
                 <div className="sobre-container">
@@ -53,6 +64,18 @@ const Home = () => {
                 <Techs/>
             
             </section>
+
+            <hr className="hr"/>
+
+            <section className="portifolio">
+                <h2 className="portifolio-titulo">Meu Portifólio</h2>
+                <p className="portifolio-descricao">Esse são alguns de meus trabalhos que já realizei:</p>
+                <div className="carrossel">
+                    <Carrossel />
+                </div>
+                
+            </section>
+
 
         </>        
     )

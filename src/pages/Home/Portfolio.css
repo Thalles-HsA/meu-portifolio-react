@@ -1,0 +1,30 @@
+.portifolio{
+
+    font-size: 24px;
+}
+
+.portifolio-titulo{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 2em 3em 0 3em;
+}
+
+.portifolio-descricao{
+    font-size: 1em;
+    margin: 1em 4.5em 3em;
+}
+
+.carrossel{
+    margin-bottom: 7em;
+    font-size: 16px;
+}
+
+.carrossel h3 {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.carrossel p {
+    margin: 0.5em 0;
+}
