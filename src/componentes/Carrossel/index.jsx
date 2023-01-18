@@ -1,5 +1,17 @@
+// Import Style css
 import './Carrossel.css'
 
+// Import de Imagens
+import alurabook from "./img/Projeto-AluraBook.PNG"
+import aluraarray from "./img/Projeto-AlurabookMetodosArray.PNG"
+import pong from "./img/Pong.PNG"
+import aluramidi from "./img/Projeto-AluraMidi.PNG"
+import aluraplus from "./img/Projeto-AluraPlus.PNG"
+import barbearia from "./img/Projeto-BarbeariaAlura.PNG"
+import freeway from "./img/Projeto-Freeway.jpg"
+import gridflex from "./img/Projeto-GridFlexCSS.PNG"
+
+// Import Swiper Componentes
 import { Navigation, Pagination, Scrollbar, A11y,EffectCards,EffectCoverflow, EffectCube,EffectFade,EffectFlip, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -9,13 +21,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+// Import Icons
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3, DiJavascript1 } from 'react-icons/di';
 
-function Carrossel () {
+export default function Carrossel () {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectCards, EffectCoverflow, EffectCube, EffectFade, EffectFlip, Autoplay]}
       effect={"slide"}
       spaceBetween={50}
@@ -24,16 +37,10 @@ function Carrossel () {
       loop={true}
       loopAdditionalSlides={5}
       navigation
-    //   pagination={{ clickable: false }}
-    //   scrollbar={{ draggable: false }}
-
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
     >
     
         <SwiperSlide>
-            
-            <img src="img/Projeto-AluraBook.png" alt="" />
+            <img src={alurabook} alt="" />
             <h3>Alura Book</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -45,8 +52,9 @@ function Carrossel () {
                 <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-AlurabookMetodosArray.png" alt="" />
+            <img src={aluraarray} alt="" />
             <h3>Metodos de Array</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -58,8 +66,9 @@ function Carrossel () {
                 <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-AluraMidi.png" alt="" />
+            <img src={aluramidi} alt="" />
             <h3>Alura Midi</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -69,8 +78,9 @@ function Carrossel () {
                 <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-AluraPlus.png" alt="" />
+            <img src={aluraplus} alt="" />
             <h3>Alura Plus</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -82,8 +92,9 @@ function Carrossel () {
                 <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-BarbeariaAlura.png" alt="" />
+            <img src={barbearia} alt="" />
             <h3>Barbearia Alura</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -94,8 +105,9 @@ function Carrossel () {
                 <DiCss3 style={{color: "#2196f3"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-Freeway.jpg" alt="" />
+            <img src={freeway} alt="" />
             <h3>Freeway com JS</h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -105,8 +117,21 @@ function Carrossel () {
                 <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
+
         <SwiperSlide>
-            <img src="img/Projeto-GridFlexCSS.png" alt="" />
+            <img src={pong} alt="" />
+            <h3>Pong com JS</h3>
+            <p>Trabalhei nesse projeto...</p>
+            <p>Resolvi esses problemas...</p>
+            <p>Coloquei em prática...</p>
+            <div className='carrossel-tech'>
+                <p>Tecnologia(s) utilizada(s):</p>
+                <DiJavascript1 style={{color: "#ffdf00"}} className="carrossel-icons"/>
+            </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+            <img src={gridflex} alt="" />
             <h3>CSS: Flexbox e grid </h3>
             <p>Trabalhei nesse projeto...</p>
             <p>Resolvi esses problemas...</p>
@@ -116,11 +141,7 @@ function Carrossel () {
                 <DiCss3 style={{color: "#2196f3"}} className="carrossel-icons"/>
             </div>
         </SwiperSlide>
- 
- 
-      
+
     </Swiper>
   );
 };
-
-export default Carrossel

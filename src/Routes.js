@@ -1,7 +1,7 @@
 import { Route, Routes as RoutesDom } from "react-router-dom"
-import Home from "./pages/Home/Home"
-import Sobre from "./pages/Sobre/Sobre"
-import Inventory from "./pages/Inventory/Inventory"
+import Home from "./pages/Home"
+import Sobre from "./pages/Sobre"
+import Inventory from "./pages/Inventory"
 
 
 const Routes = () => {

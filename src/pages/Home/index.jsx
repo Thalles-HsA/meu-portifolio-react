@@ -11,13 +11,12 @@ import AnimatedTypingComponent from '../../componentes/Digitando'
 
 
 //import Componentes Internos
-import Techs from '../../componentes/Techs/Techs';
-import Carrossel from "../../componentes/Carrossel/Carrossel";
-import Header from '../../componentes/Header/Header';
-import Logo from "../../componentes/Logo/Logo";
+import Techs from '../../componentes/Techs';
+import Carrossel from "../../componentes/Carrossel";
+import Header from '../../componentes/Header';
+import Logo from "../../componentes/Logo";
 
 const Home = () => {
-
     return (
         <>
             <Header/>
@@ -75,8 +74,6 @@ const Home = () => {
                 </div>
                 
             </section>
-
-
         </>        
     )
         
