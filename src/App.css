@@ -3,3 +3,12 @@ body {
     font-size: 16px;
 }
 
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #f98a53;
+    border-radius: 10px;
+}
+

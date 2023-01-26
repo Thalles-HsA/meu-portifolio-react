@@ -1,0 +1,121 @@
+[
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-AluraBook.PNG",
+        "alt": "Imagem do projeto Alura Book",
+        "titulo": "Alura Book",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"AiFillHtml5 style={{ color: '#ff5722' }}",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "1"
+    },
+
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-AlurabookMetodosArray.PNG",
+        "alt": "Imagem do projeto Metodos de Array",
+        "titulo": "Metodos de Array",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "2"
+    },
+
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-AluraMidi.PNG",
+        "alt": "Imagem do projeto Alura Midi",
+        "titulo": "Alura Midi",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "3"
+    },
+
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-AluraPlus.PNG",
+        "alt": "Imagem do projeto Alura Plus",
+        "titulo": "Alura Plus",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "4"
+    },
+
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-BarbeariaAlura.PNG",
+        "alt": "Imagem do projeto Barbearia Alura",
+        "titulo": "Barbearia Alura",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "5"
+    },
+    
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-Freeway.jpg",
+        "alt": "Imagem do projeto Freeway",
+        "titulo": "Freeway com JavaScript",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "6"
+    },
+
+    {
+        "imagem": "/assets/imgCarrocel/Pong.PNG",
+        "alt": "Imagem do projeto Pong com JavaScript",
+        "titulo": "Pong com JavaScript",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"AiFillHtml5 style={{ color: '#ff5722'}}",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "7"
+    },
+    
+    {
+        "imagem": "/assets/imgCarrocel/Projeto-GridFlexCSS.PNG",
+        "alt": "Imagem do projeto CSS FlexBox e Grid",
+        "titulo": "CSS FlexBox e Grid",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
+            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
+            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+        },
+        "id": "8"
+    }
+]
