@@ -1,4 +1,4 @@
-import './Reset.css';
+import './reset.css';
 import './App.css';
 import Routes from './Routes';
 
