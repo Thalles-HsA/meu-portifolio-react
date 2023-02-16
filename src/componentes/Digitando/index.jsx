@@ -34,15 +34,9 @@ function AnimatedTypingComponent () {
         <Emoji text="😄" onlyEmojiClassName="make-emojis-large" />
         <Typist.Delay ms={6000} />
         <Typist.Backspace count={1} />
-
-
       </Typist>
     </div>
-    
   )
-
-  
-  
-  };
+};
 
 export default AnimatedTypingComponent

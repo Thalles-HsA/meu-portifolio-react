@@ -7,7 +7,7 @@ import Inventory from "./pages/Inventory"
 const Routes = () => {
   return (
       <RoutesDom>
-        <Route index element={<Home /> } />
+        <Route path="home" element={<Home /> } />
         <Route path="sobre" element={<Sobre /> } />
         <Route path="inventory" element={<Inventory /> } />
       </RoutesDom>

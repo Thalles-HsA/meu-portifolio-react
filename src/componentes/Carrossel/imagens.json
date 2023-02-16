@@ -1,5 +1,6 @@
 [
     {
+        "link": "https://github.com/Thalles-HsA/AluraBooks",
         "imagem": "/assets/imgCarrocel/Projeto-AluraBook.PNG",
         "alt": "Imagem do projeto Alura Book",
         "titulo": "Alura Book",
@@ -15,6 +16,7 @@
     },
 
     {
+        "link": "https://github.com/Thalles-HsA/MetodosArray",
         "imagem": "/assets/imgCarrocel/Projeto-AlurabookMetodosArray.PNG",
         "alt": "Imagem do projeto Metodos de Array",
         "titulo": "Metodos de Array",
@@ -30,6 +32,7 @@
     },
 
     {
+        "link": "https://github.com/Thalles-HsA/AluraMidi",
         "imagem": "/assets/imgCarrocel/Projeto-AluraMidi.PNG",
         "alt": "Imagem do projeto Alura Midi",
         "titulo": "Alura Midi",
@@ -45,6 +48,7 @@
     },
 
     {
+        "link": "https://github.com/Thalles-HsA/AluraPlus",
         "imagem": "/assets/imgCarrocel/Projeto-AluraPlus.PNG",
         "alt": "Imagem do projeto Alura Plus",
         "titulo": "Alura Plus",
@@ -60,6 +64,7 @@
     },
 
     {
+        "link": "https://github.com/Thalles-HsA/Barbearia-alura",
         "imagem": "/assets/imgCarrocel/Projeto-BarbeariaAlura.PNG",
         "alt": "Imagem do projeto Barbearia Alura",
         "titulo": "Barbearia Alura",
@@ -75,6 +80,7 @@
     },
     
     {
+        "link": "https://github.com/Thalles-HsA/Freeway-JS",
         "imagem": "/assets/imgCarrocel/Projeto-Freeway.jpg",
         "alt": "Imagem do projeto Freeway",
         "titulo": "Freeway com JavaScript",
@@ -90,6 +96,7 @@
     },
 
     {
+        "link": "https://github.com/Thalles-HsA/Pong",
         "imagem": "/assets/imgCarrocel/Pong.PNG",
         "alt": "Imagem do projeto Pong com JavaScript",
         "titulo": "Pong com JavaScript",
@@ -105,6 +112,7 @@
     },
     
     {
+        "link": "https://github.com/Thalles-HsA/Curso-CSS---Flex-box-e-Grid-",
         "imagem": "/assets/imgCarrocel/Projeto-GridFlexCSS.PNG",
         "alt": "Imagem do projeto CSS FlexBox e Grid",
         "titulo": "CSS FlexBox e Grid",

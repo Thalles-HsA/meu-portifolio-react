@@ -2,6 +2,8 @@ import { NavLink } from 'react-router-dom'
 import Logo from '../Logo'
 import './Header.css'
 
+const menu = ['Home', 'Sobre', 'Inventory', 'Portifolio', 'Contato']
+
 const Header = () => {
 
     return (
@@ -10,13 +12,11 @@ const Header = () => {
                 <Logo />
                 <h1>Thalles Herique</h1>
             </div>
-            <div >
+            <div>
                 <ul className='header-menu'>
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/sobre">Sobre</NavLink></li>
-                    <li><NavLink to="/Inventory">Inventory</NavLink></li>
-                    <li>Portifolio</li>
-                    <li>Contato</li>
+                    {menu.map(item=>(
+                        <li><NavLink to={`/${item.toLowerCase()}`}>{item}</NavLink></li>
+                    ))}
                 </ul>
             </div>
         </div>

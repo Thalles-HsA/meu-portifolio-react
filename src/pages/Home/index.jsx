@@ -50,14 +50,11 @@ const Home = () => {
                 <div className="sobre-container">
                     <Logo />
                     <h3>Thalles Henrique</h3>
-                    <p className="sobre-paragrafo">Atualmente cursando o 2º período da Faculdade de Ciências da Computação. </p>
+                    <p className="sobre-paragrafo">Atualmente estou cursando o 2º período da Faculdade de Ciências da Computação e tenho experiência em desenvolvimento de Frontend, utilizando HTML, CSS, CSS Flexbox, CSS Grid, JavaScript e React (com TypeScript), bem como no desenvolvimento de Back-end, utilizando Node.js e MongoDB.  </p>
 
-                    <p className="sobre-paragrafo">Tenho experiência em HTML, CSS, CSS Flexbox, CSS Grid, JavaScript e React. Também em desenvolvimento web responsivo, páginas interativas e acessíveis. </p>
+                    <p className="sobre-paragrafo">Estou empregando todas as minhas habilidades aqui no meu portino Projeto Inventory, que está em andamento. Se quiser saber mais sobre ele, confira abaixo. </p>
 
-                    <p className="sobre-paragrafo">Estou aprimorando conhecimento em TypeScript, NodeJS e Banco de Dados. </p>
-
-                    <p className="sobre-paragrafo">Estou colocando em prática todas minhas skills no Projeto Inventory, veja mais sobre ele abaixo 
-                    </p>
+            
                     <NavLink to="/Inventory" className="botao-inventory">Projeto Inventory</NavLink>
                 </div>
                 <Techs/>

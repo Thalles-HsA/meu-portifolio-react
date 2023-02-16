@@ -35,7 +35,7 @@ export default function Carrossel() {
             {imagens.map((i) => {
                 return (
                     <SwiperSlide key={i.id}>
-                        <img src={i.imagem} alt={i.alt} />
+                        <a href={i.link} className='carrossel-img' target="_blanck"><img src={i.imagem} alt={i.alt}/></a>
                         <h3>{i.titulo}</h3>
                         <p>{i.descricao1}</p>
                         <p>{i.descricao2}</p>
