@@ -1,7 +1,7 @@
 [
     {
         "link": "https://github.com/Thalles-HsA/AluraBooks",
-        "imagem": "/assets/imgCarrocel/projetoalurabook.png",
+        "imagem": "./assets/imgcarrocel/projetoalurabook.png",
         "alt": "Imagem do projeto Alura Book",
         "titulo": "Alura Book",
         "descricao1": "Trabalhei nesse projeto...",
@@ -17,7 +17,7 @@
 
     {
         "link": "https://github.com/Thalles-HsA/MetodosArray",
-        "imagem": "/assets/imgCarrocel/projetoalurabookmetodosarray.png",
+        "imagem": "./assets/imgcarrocel/projetoalurabookmetodosarray.png",
         "alt": "Imagem do projeto Metodos de Array",
         "titulo": "Metodos de Array",
         "descricao1": "Trabalhei nesse projeto...",
@@ -33,7 +33,7 @@
 
     {
         "link": "https://github.com/Thalles-HsA/AluraMidi",
-        "imagem": "/assets/imgCarrocel/projetoaluramidi.png",
+        "imagem": "./assets/imgcarrocel/projetoaluramidi.png",
         "alt": "Imagem do projeto Alura Midi",
         "titulo": "Alura Midi",
         "descricao1": "Trabalhei nesse projeto...",
@@ -49,7 +49,7 @@
 
     {
         "link": "https://github.com/Thalles-HsA/AluraPlus",
-        "imagem": "/assets/imgCarrocel/projetoaluraplus.png",
+        "imagem": "./assets/imgcarrocel/projetoaluraplus.png",
         "alt": "Imagem do projeto Alura Plus",
         "titulo": "Alura Plus",
         "descricao1": "Trabalhei nesse projeto...",
@@ -65,7 +65,7 @@
 
     {
         "link": "https://github.com/Thalles-HsA/Barbearia-alura",
-        "imagem": "/assets/imgCarrocel/projetobarbeariaalura.png",
+        "imagem": "./assets/imgcarrocel/projetobarbeariaalura.png",
         "alt": "Imagem do projeto Barbearia Alura",
         "titulo": "Barbearia Alura",
         "descricao1": "Trabalhei nesse projeto...",
@@ -81,7 +81,7 @@
     
     {
         "link": "https://github.com/Thalles-HsA/Freeway-JS",
-        "imagem": "/assets/imgCarrocel/projetofreeway.jpg",
+        "imagem": "./assets/imgcarrocel/projetofreeway.jpg",
         "alt": "Imagem do projeto Freeway",
         "titulo": "Freeway com JavaScript",
         "descricao1": "Trabalhei nesse projeto...",
@@ -97,7 +97,7 @@
 
     {
         "link": "https://github.com/Thalles-HsA/Pong",
-        "imagem": "/assets/imgCarrocel/Pong.PNG",
+        "imagem": "./assets/imgcarrocel/pong.png",
         "alt": "Imagem do projeto Pong com JavaScript",
         "titulo": "Pong com JavaScript",
         "descricao1": "Trabalhei nesse projeto...",
@@ -113,7 +113,7 @@
     
     {
         "link": "https://github.com/Thalles-HsA/Curso-CSS---Flex-box-e-Grid-",
-        "imagem": "/assets/imgCarrocel/projetogridflexcss.png",
+        "imagem": "./assets/imgcarrocel/projetogridflexcss.png",
         "alt": "Imagem do projeto CSS FlexBox e Grid",
         "titulo": "CSS FlexBox e Grid",
         "descricao1": "Trabalhei nesse projeto...",

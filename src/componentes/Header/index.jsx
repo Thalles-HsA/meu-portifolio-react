@@ -6,6 +6,7 @@ const menu = ['Home', 'Sobre', 'Inventory', 'Portifolio', 'Contato']
 
 const Header = () => {
 
+
     return (
         <div className='header'>
             <div className='header-titulo'>
@@ -14,13 +15,21 @@ const Header = () => {
             </div>
             <div>
                 <ul className='header-menu'>
-                    {menu.map(item=>(
-                        <li><NavLink to={`/${item.toLowerCase()}`}>{item}</NavLink></li>
-                    ))}
+                    {menu.map(item => {
+
+                        if (item === "Home") {
+                            return <li><NavLink to="/">{item}</NavLink></li>
+                        } else {
+                            return <li><NavLink to={`/${item.toLowerCase()}`}>{item}</NavLink></li>
+                        }
+
+                    })}
                 </ul>
             </div>
         </div>
     )
 }
+
+
 
 export default Header

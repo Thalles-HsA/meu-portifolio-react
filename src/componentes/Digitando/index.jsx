@@ -28,12 +28,8 @@ function AnimatedTypingComponent () {
         <Typist.Delay ms={1500} />
         <Typist.Backspace count={15} />
         
-          Full Stack Developer<Emoji text="😅" onlyEmojiClassName="make-emojis-large" />
-          <Typist.Delay ms={3000} />
-          <Typist.Backspace count={1} />
-        <Emoji text="😄" onlyEmojiClassName="make-emojis-large" />
-        <Typist.Delay ms={6000} />
-        <Typist.Backspace count={1} />
+          Full Stack Developer
+  
       </Typist>
     </div>
   )

@@ -38,9 +38,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='home-imagem'>
-                    <img src='/assets/img/home.jpg' alt='Computador' className='home-imagem--principal' />
-                    <img src='/assets/img/engrenagemLaranja.png' alt='Computador' className='home-imagem--laranja'/>
-                    <img src='/assets/img/engrenagemRoxa.png' alt='Computador' className='home-imagem--roxa'/>
+                    <img src='./assets/img/home.jpg' alt='Computador' className='home-imagem--principal' />
+                    <img src='./assets/img/engrenagemlaranja.png' alt='Computador' className='home-imagem--laranja'/>
+                    <img src='./assets/img/engrenagemroxa.png' alt='Computador' className='home-imagem--roxa'/>
                 </div>
             </section>
 
