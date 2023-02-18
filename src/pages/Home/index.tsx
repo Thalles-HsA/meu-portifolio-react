@@ -8,9 +8,9 @@ const Home = () => {
         <>
             <Header />
             <Principal />
-            <hr className="hr" />
+            
             <Sobre />
-            <hr className="hr" />
+            
             <Portifolio />
         </>
     );
