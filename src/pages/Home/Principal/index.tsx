@@ -8,7 +8,7 @@ import imgPrincipal from "../home.jpg";
 import engRoxa from "../engrenagemroxa.png";
 import engLaranja from "../engrenagemlaranja.png";
 
-const Principal: REact.FC = () => {
+const Principal = () => {
     return (
         <section className='home'>
             <div >
