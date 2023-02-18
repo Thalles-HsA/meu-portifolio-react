@@ -1,6 +1,5 @@
-import React from 'react';
-import Header from '../../componentes/Header';
 import './Inventory.css'
+import Header from "../../components/Header"
 
 const Inventory = () => {
     return (

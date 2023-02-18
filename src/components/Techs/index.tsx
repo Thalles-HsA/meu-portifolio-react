@@ -1,7 +1,8 @@
+
 import './Techs.css';
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiReact, SiNodedotjs } from "react-icons/si";
+import { SiJavascript, SiReact, SiNodedotjs, SiMongodb } from "react-icons/si";
 
 function Techs() {
     return (
@@ -19,6 +20,7 @@ function Techs() {
             <p className='techs-aprendendo'>Atualmente Aprendendo</p>
             <div className='techs-icons'>
                 <SiNodedotjs style={{ color: "#83cd29" }} />
+                <SiMongodb style={{color: "#006849"}}/>
 
             </div>
         </section>

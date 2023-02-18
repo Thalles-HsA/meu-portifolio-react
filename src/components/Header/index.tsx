@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom'
 import Logo from '../Logo'
 import './Header.css'
 
-const menu = ['Home', 'Sobre', 'Inventory', 'Portifolio', 'Contato']
+const menu: string[] = ['Home', 'Sobre', 'Inventory', 'Portifolio', 'Contato']
 
-const Header = () => {
+const Header = (): JSX.Element => {
 
 
     return (
@@ -18,11 +18,10 @@ const Header = () => {
                     {menu.map(item => {
 
                         if (item === "Home") {
-                            return <li><NavLink to="/">{item}</NavLink></li>
+                            return <li key={item}><NavLink to="/">{item}</NavLink></li>
                         } else {
-                            return <li><NavLink to={`/${item.toLowerCase()}`}>{item}</NavLink></li>
+                            return <li key={item}><NavLink to={`/${item.toLowerCase()}`}>{item}</NavLink></li>
                         }
-
                     })}
                 </ul>
             </div>

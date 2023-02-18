@@ -1,12 +1,13 @@
 // Import Style css
-import './Carrossel.css'
+import './Carrossel.css';
 
 // Import de Imagens
-import imagens from "./imagens.json"
+import imagens from "./imagens.json";
 
 // Import Swiper Componentes
 import { Navigation, Pagination, Scrollbar, A11y, EffectCards, EffectCoverflow, EffectCube, EffectFade, EffectFlip, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import type { SwiperOptions } from 'swiper';
 
 
 // Import Swiper styles
@@ -19,23 +20,46 @@ import 'swiper/css/scrollbar';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3, DiJavascript1 } from 'react-icons/di';
 
-export default function Carrossel() {
-    return (
-        <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y, EffectCards, EffectCoverflow, EffectCube, EffectFade, EffectFlip, Autoplay]}
-            effect={"slide"}
-            spaceBetween={50}
-            slidesPerView={3}
-            autoplay={true}
-            loop={true}
-            loopAdditionalSlides={5}
-            navigation
-        >
+interface Imagem {
+    id: string;
+    link: string;
+    imagem: string;
+    alt: string;
+    titulo: string;
+    descricao1: string;
+    descricao2: string;
+    descricao3: string;
+}
+  
 
-            {imagens.map((i) => {
+function Carrossel() {
+
+    const swiperOptions: SwiperOptions = {
+        modules: [Navigation, Pagination, Scrollbar, A11y, EffectCards, EffectCoverflow, EffectCube, EffectFade, EffectFlip, Autoplay],
+        effect: 'slide',
+        spaceBetween: 50,
+        slidesPerView: 3,
+        autoplay:{delay: 3000},
+        loop: true,
+        navigation: true,
+      };
+
+    return (
+        <Swiper {... swiperOptions}>
+
+            {imagens.map((i: Imagem) => {
                 return (
                     <SwiperSlide key={i.id}>
-                        <a href={i.link} className='carrossel-img' target="_blanck"><img src={i.imagem} alt={i.alt}/></a>
+                        <a 
+                            href={i.link} 
+                            className='carrossel-img' 
+                            target="_blanck"
+                        >
+                            <img 
+                                src={`${process.env.PUBLIC_URL}${i.imagem}`} 
+                                alt={i.alt}
+                            />
+                        </a>
                         <h3>{i.titulo}</h3>
                         <p>{i.descricao1}</p>
                         <p>{i.descricao2}</p>
@@ -52,3 +76,5 @@ export default function Carrossel() {
         </Swiper>
     );
 };
+
+export default Carrossel;
