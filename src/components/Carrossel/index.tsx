@@ -17,11 +17,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 // Import Icons
-import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3, DiJavascript1 } from 'react-icons/di';
+import Tecnologias from './Tags';
+
 
 interface Imagem {
-    id: string;
+    id: number;
     link: string;
     imagem: string;
     alt: string;
@@ -29,8 +29,20 @@ interface Imagem {
     descricao1: string;
     descricao2: string;
     descricao3: string;
-}
-  
+    tecnologias: {
+        html: boolean;
+        css: boolean;
+        js: boolean;
+        react: boolean;
+        node: boolean;
+        mongo:boolean;
+        ts: boolean;
+        sass: boolean;
+        
+    };
+};
+
+
 
 function Carrossel() {
 
@@ -39,37 +51,32 @@ function Carrossel() {
         effect: 'slide',
         spaceBetween: 50,
         slidesPerView: 3,
-        autoplay:{delay: 3000},
+        autoplay: { delay: 3000 },
         loop: true,
         navigation: true,
-      };
+    };
 
     return (
-        <Swiper {... swiperOptions}>
+        <Swiper {...swiperOptions}>
 
             {imagens.map((i: Imagem) => {
                 return (
                     <SwiperSlide key={i.id}>
-                        <a 
-                            href={i.link} 
-                            className='carrossel-img' 
+                        <a
+                            href={i.link}
+                            className='carrossel-img'
                             target="_blanck"
                         >
-                            <img 
-                                src={`${process.env.PUBLIC_URL}${i.imagem}`} 
-                                alt={i.alt}
+                            <img
+                                src={`${process.env.PUBLIC_URL}${i.imagem}`}
+                                alt={i.alt} className="carrossel-img__img"
                             />
                         </a>
-                        <h3>{i.titulo}</h3>
+                        <h3 className='carrossel-titulo'>{i.titulo}</h3>
                         <p>{i.descricao1}</p>
                         <p>{i.descricao2}</p>
                         <p>{i.descricao3}</p>
-                        <div className='carrossel-tech'>
-                            <p>Tecnologia(s) utilizada(s):</p>
-                            <AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />
-                            <DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />
-                            <DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />
-                        </div>
+                        <Tecnologias tecnologias={i.tecnologias} />
                     </SwiperSlide>
                 );
             })}

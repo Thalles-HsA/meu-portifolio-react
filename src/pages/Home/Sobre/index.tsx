@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import Botao from "../../../components/Botao";
 import Logo from "../../../components/Logo";
 import Techs from "../../../components/Techs";
 import "./Sobre.css";
@@ -15,9 +15,7 @@ const Sobre = () => {
                 <p className="sobre-paragrafo">
                     Estou empregando todas as minhas habilidades aqui no meu Portifólio e também Projeto Inventory, que está em andamento. Se quiser saber mais sobre ele, confira abaixo.
                 </p>
-                <NavLink to="/Inventory" className="botao-inventory">
-                    Projeto Inventory
-                </NavLink>
+                <Botao link={"inventory"}>Projeto Inventory</Botao>
             </div>
             <Techs />
         </section>

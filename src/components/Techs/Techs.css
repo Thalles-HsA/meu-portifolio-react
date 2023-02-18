@@ -32,3 +32,12 @@
     justify-content: space-evenly;
     padding-bottom: 0.50em;
 }
+
+.techs-icons svg {
+    transition: transform 0.3s ease-in-out;
+
+}
+  
+.techs-icons svg:hover {
+transform: scale(1.2);
+}

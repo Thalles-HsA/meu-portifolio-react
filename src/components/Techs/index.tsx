@@ -11,17 +11,16 @@ function Techs() {
             <p className='techs-tecnologias'>Tecnologias</p>
             <p className='techs-aprendendo'>Já utilizadas</p>
             <div className='techs-icons'>
-                <AiFillHtml5 style={{ color: "#ff5722" }} />
-                <DiCss3 style={{ color: "#2196f3" }} />
-                <SiJavascript style={{ color: "#ffdf00" }} />
-                <SiReact style={{ color: "#66dcfb" }} />
+                <AiFillHtml5 style={{ color: "#ff5722" }} title="HTML" />
+                <DiCss3 style={{ color: "#2196f3" }} title="CSS"/>
+                <SiJavascript style={{ color: "#ffdf00" }} title="JavaScript"/>
+                <SiReact style={{ color: "#66dcfb" }} title="React"/>
             </div>
             <p className='techs-tecnologias'>Tecnologias</p>
             <p className='techs-aprendendo'>Atualmente Aprendendo</p>
             <div className='techs-icons'>
-                <SiNodedotjs style={{ color: "#83cd29" }} />
-                <SiMongodb style={{color: "#006849"}}/>
-
+                <SiNodedotjs style={{ color: "#83cd29" }} title="NodeJS"/>
+                <SiMongodb style={{color: "#006849"}} title="MongoDB"/>
             </div>
         </section>
     );

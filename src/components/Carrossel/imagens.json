@@ -1,5 +1,61 @@
 [
     {
+        "link": "https://github.com/Thalles-HsA/ApiREST",
+        "imagem": "/assets/imgcarrocel/projetoapirest.png",
+        "alt": "Imagem do projeto de ApiRest",
+        "titulo": "ApiRest",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "node": true,
+            "mongo": true,
+            "ts": true   
+        },
+        "id": 1
+    },
+
+    {
+        "link": "https://github.com/Thalles-HsA/TypeScript",
+        "imagem": "/assets/imgcarrocel/projetotypescript.png",
+        "alt": "Imagem do projeto de TypeScript",
+        "titulo": "TypeScript",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "ts": true   
+        },
+        "id": 2
+    },
+    {
+        "link": "https://github.com/Thalles-HsA/Organo",
+        "imagem": "/assets/imgcarrocel/projetoorgano.png",
+        "alt": "Imagem do projeto Organo",
+        "titulo": "Organo",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "react": true      
+        },
+        "id": 3
+    },
+    {
+        "link": "https://github.com/Thalles-HsA/aluroni",
+        "imagem": "/assets/imgcarrocel/projetoaluroni.png",
+        "alt": "Imagem do projeto Aluroni",
+        "titulo": "Aluroni",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "react": true, 
+            "ts": true   
+        },
+        "id": 4
+    },
+    {
         "link": "https://github.com/Thalles-HsA/AluraBooks",
         "imagem": "/assets/imgcarrocel/projetoalurabook.png",
         "alt": "Imagem do projeto Alura Book",
@@ -8,11 +64,10 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"AiFillHtml5 style={{ color: '#ff5722' }}",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "html":true,
+            "css":true      
         },
-        "id": "1"
+        "id": 5
     },
 
     {
@@ -24,11 +79,9 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "js": true        
         },
-        "id": "2"
+        "id": 6
     },
 
     {
@@ -40,11 +93,9 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "js": true        
         },
-        "id": "3"
+        "id": 7
     },
 
     {
@@ -56,11 +107,10 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "html":true,
+            "css":true       
         },
-        "id": "4"
+        "id": 8
     },
 
     {
@@ -72,11 +122,10 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "html":false,
+            "css":true      
         },
-        "id": "5"
+        "id": 9
     },
     
     {
@@ -88,11 +137,9 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "js": true        
         },
-        "id": "6"
+        "id": 10
     },
 
     {
@@ -104,11 +151,9 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"AiFillHtml5 style={{ color: '#ff5722'}}",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "js":true 
         },
-        "id": "7"
+        "id": 11
     },
     
     {
@@ -120,10 +165,23 @@
         "descricao2": "Resolvi esses problemas...",
         "descricao3": "Coloquei em prática...",
         "tecnologias": {
-            "html":"<AiFillHtml5 style={{ color: '#ff5722' }} className='carrossel-icons' />",
-            "css": "<DiCss3 style={{ color: '#2196f3' }} className='carrossel-icons' />",
-            "js": "<DiJavascript1 style={{ color: '#ffdf00' }} className='carrossel-icons' />"
+            "html":true,
+            "css":true   
         },
-        "id": "8"
+        "id": 12
+    },
+    {
+        "link": "https://github.com/Thalles-HsA/alura-studies",
+        "imagem": "/assets/imgcarrocel/projetoalurastudies.png",
+        "alt": "Imagem do projeto Alura-studies",
+        "titulo": "Alura Studies",
+        "descricao1": "Trabalhei nesse projeto...",
+        "descricao2": "Resolvi esses problemas...",
+        "descricao3": "Coloquei em prática...",
+        "tecnologias": {
+            "react": true, 
+            "ts": true   
+        },
+        "id": 13
     }
 ]

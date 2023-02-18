@@ -1,4 +1,3 @@
-
 .home {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5em;
@@ -8,32 +7,15 @@
     display: flex;
 }
 
-.home-botao {
-    background: linear-gradient(121.86deg, #f05f4a 23.04%, #7b54a7 97.21%);
-    border-radius: 0.7em;
-    color: #fff;
-    font-weight: 500;
-    font-size: 0.6em;
-    padding: 1em;
-    width: 10em;
-    margin: 4em 0;
-    cursor: pointer;
-}
-
 .home-icons svg {
     font-size: 1.6em;
     margin-right: 0.5em;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
 .home-icons svg:hover {
     transform: scale(1.2);
-    transition: 0.5s;
-}
-
-.home-botao:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
 }
 
 .home-imagem{
@@ -59,11 +41,10 @@
 
 .hr{
     width: 40%;
-    margin: 2em auto;
-    
+    margin: 2em auto; 
 }
 
-/* .home-imagem--roxa {
+.home-imagem--roxa {
     animation: giro-horario 5s linear infinite;
 }
 
@@ -87,7 +68,7 @@
     100% {
         transform: rotate(-360deg);
     }
-} */
+}
 
 
 

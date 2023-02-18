@@ -1,12 +1,12 @@
 import "./Home.css";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 import AnimatedTypingComponent from "../../../components/Digitando";
 
-//import IMG 
+//import img
 import imgPrincipal from "../home.jpg";
 import engRoxa from "../engrenagemroxa.png";
 import engLaranja from "../engrenagemlaranja.png";
+import Botão from "../../../components/Botao";
 
 const Principal = () => {
     return (
@@ -18,9 +18,7 @@ const Principal = () => {
                     <p>Seja bem-vindo(a) ao meu portifólio website</p>
                 </div>
 
-                <div className='home-botao'>
-                    <NavLink to="/sobre">Saiba mais sobre mim</NavLink>
-                </div>
+                <Botão link={"sobre"}>Saiba mais sobre mim</Botão>
 
                 <div className='home-icons'>
                     <a href='https://github.com/Thalles-HsA' target='_blank' rel="noreferrer"><FaGithub /></a>
