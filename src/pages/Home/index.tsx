@@ -8,9 +8,7 @@ const Home = () => {
         <>
             <Header />
             <Principal />
-            
             <Sobre />
-            
             <Portifolio />
         </>
     );
